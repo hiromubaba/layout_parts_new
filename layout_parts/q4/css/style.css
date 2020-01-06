@@ -4,16 +4,22 @@
 .content{
   padding: 20px;
   width: 100%;
-  display: table;
-  table-layout: fixed;
+  box-sizing: border-box;
 }
 
 .table1{
   margin-bottom: 20px;
   text-align: center;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
-.box{
+.table1:last-child{
+  margin-bottom: 0;
+}
+
+.cell-box{
   padding: 20px;
   display: table-cell;
 }
@@ -26,8 +32,7 @@
 .purple{
   background-color: #e0abd9; 
   vertical-align: top;
-  text-align: left;
-  
+  width: 100%;
 }
 
 .buru{
@@ -37,12 +42,11 @@
 
 .yello{
   background-color: #e5d32e;
-  width: 100%;
 }
 
 .pink{
   background-color: #ec8f9a;
-  width: 100%;
+  
 }
 
 .green{
