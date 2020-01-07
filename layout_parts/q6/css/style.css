@@ -22,25 +22,27 @@
   text-align: center;
 }
 
-.q6__2t{
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+.q6--around p{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.q6{
+  display: table;
 }
 
 .table1{
-  background-color: #fff;
-  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.p6__2{
+.flex1{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.flex1{
-  background-color: #fff;
-  padding: 10px;
-}
+
 /* 回答はここに書いてね */
