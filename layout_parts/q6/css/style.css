@@ -28,7 +28,7 @@
   display: inline-block;
 }
 
-.q6{
+.q6__1{
   display: table;
 }
 
@@ -38,11 +38,30 @@
   text-align: center;
 }
 
-.flex1{
+.q6__2{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
+.is-stable{
+  position: relative;
+}
 
+.is-stable p{
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.is-flexible p{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* 回答はここに書いてね */
