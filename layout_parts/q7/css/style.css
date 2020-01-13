@@ -2,4 +2,66 @@
 
 /* 回答はここに書いてね */
 
+/*----Q7-1----*/
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q7--float .q7__box{
+  float: left;
+  width: 225px;
+  background-color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.q7--float .q7__box:first-child {
+  margin-left: 0;
+}
+
+.q7--table .q7__inner{
+  display: table;
+}
+
+/*----Q7-2----*/
+
+.q7--table .q7__box{
+  display: table-cell;
+  padding-left: 50px;
+  width: 225px;
+  vertical-align: middle;
+}
+
+.q7--table .q7__box__text{
+  font-size: 16px;
+}
+
+.q7--table .q7__box:first-child{
+  padding-left: 0;
+}
+
+/*----Q7-3----*/
+
+
+
+.q7--inlineblock .q7__box{
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7--inlineblock .q7__box:first-child{
+margin-left: 0;
+}
+
+
 /* 回答はここに書いてね */
+
