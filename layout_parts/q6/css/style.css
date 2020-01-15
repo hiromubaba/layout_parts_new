@@ -53,7 +53,7 @@
   position: relative;
 }
 
-.is-stable .q6__box__inner {
+.is-stable .text {
   margin: auto;
   position: absolute;
   top: 0;
@@ -62,8 +62,12 @@
   left: 0;
 }
 
-.is-flexible .q6__box__inner {
+.is-flexible {
   position: relative;
+}
+
+.is-flexible .text {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
