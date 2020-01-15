@@ -1,34 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.table1{
+.table {
   table-layout: fixed;
   width: 100%;
-}
-
-tr,td,th{
-  border: solid 1px #dedede;
-  padding: 10px;
   text-align: center;
 }
 
-td,tr{
-  font-size: 16px;
-  line-height: 22px;
+.table tr,td,th {
+  border: solid 1px #dedede;
+  padding: 10px;
 }
 
-th{
+.table th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-tr:nth-child(2n+1){
+tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-.ten{
+.table tr:last-child {
   border-top: 2px dashed #111 ;
 }
 /* 回答はここに書いてね */

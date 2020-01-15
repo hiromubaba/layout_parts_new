@@ -2,12 +2,13 @@
 
 /* 回答はここに書いてね */
 .content{
-  width: 900px;
+  width: 940px;
   background-color: #eff3f4;
   padding: 20px;
   margin: auto;
   font-size: 18px;
   line-height: 22px;
+  box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -19,10 +20,12 @@
 .img-left{
   float: left;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .img-right{
   float: right;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 /* 回答はここに書いてね */

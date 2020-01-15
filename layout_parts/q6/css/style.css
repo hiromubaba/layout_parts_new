@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.in{
+.in {
   text-align: center;
 }
 
-.align{
+.align {
   background-color: #e6f2ff;
   display: inline-block;
   width: 90px;
@@ -13,7 +13,7 @@
   padding-bottom: 10px;
 }
 
-.margin{
+.margin {
   background-color: #e6f2ff;
   width: 90px;
   padding-top: 10px;
@@ -22,34 +22,34 @@
   text-align: center;
 }
 
-.q6--around p{
+.q6--around p {
   background-color: #fff;
   padding: 10px;
   display: inline-block;
 }
 
-.q6__1{
+.q6--around {
   display: table;
 }
 
-.table1{
+.table { 
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.q6__2{
+.q6 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
 
-.is-stable{
+.is-stable {
   position: relative;
 }
 
-.is-stable p{
+.is-stable p {
   margin: auto;
   position: absolute;
   top: 0;
@@ -58,7 +58,7 @@
   left: 0;
 }
 
-.is-flexible p{
+.is-flexible p ø{
   position: relative;
   top: 50%;
   left: 50%;
