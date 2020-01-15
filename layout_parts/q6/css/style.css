@@ -28,17 +28,17 @@
   display: inline-block;
 }
 
-.q6--around {
+.table {
   display: table;
 }
 
-.table { 
+.table p{ 
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.q6 {
+.q6--around {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@
   left: 0;
 }
 
-.is-flexible p ø{
+.is-flexible p {
   position: relative;
   top: 50%;
   left: 50%;
