@@ -44,7 +44,7 @@
   align-items: center;
 }
 
-.flex-text{
+.flex-text {
   background-color: #fff;
   padding: 10px;
 }
@@ -53,7 +53,7 @@
   position: relative;
 }
 
-.is-stable p {
+.is-stable .q6__box__inner {
   margin: auto;
   position: absolute;
   top: 0;
@@ -62,7 +62,7 @@
   left: 0;
 }
 
-.is-flexible p {
+.is-flexible .q6__box__inner {
   position: relative;
   top: 50%;
   left: 50%;
