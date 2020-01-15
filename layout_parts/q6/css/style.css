@@ -22,26 +22,31 @@
   text-align: center;
 }
 
-.q6--around p {
+.table-box .table-text {
   background-color: #fff;
   padding: 10px;
   display: inline-block;
 }
 
-.table {
+.table-box {
   display: table;
 }
 
-.table p{ 
+.table { 
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.q6--around {
+.flex-box {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-text{
+  background-color: #fff;
+  padding: 10px;
 }
 
 .is-stable {
