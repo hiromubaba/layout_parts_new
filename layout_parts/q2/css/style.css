@@ -9,6 +9,7 @@
   font-size: 18px;
   line-height: 22px;
   box-sizing: border-box;
+  word-break: break-all;
 }
 
 .clearfix::after {
