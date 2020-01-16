@@ -2,12 +2,13 @@
 
 /* 回答はここに書いてね */
 
-.q8--box {
-  font-size: 16px;
-}
 
 .q8__box {
   margin-left: 10px;
+}
+
+.q8--box :first-child{ 
+  margin-left: 0;
 }
 
 .q8--box .q8__common {
@@ -28,6 +29,7 @@
 .q8--box .q8__shadow {
   background-color: #fff;
   color: #222;
+  box-shadow: 1px 1px 4px;
 }
 
 .q8--box .q8__small { 
@@ -35,6 +37,7 @@
   border-radius: 3px;
   line-height: 26px;
   padding: 0 15px;
+  font-size: 16px;
 }
 
 .q8--box .q8__maddle {
@@ -42,6 +45,7 @@
   border-radius: 5px;
   line-height: 32px;
   padding: 0 20px;
+  font-size: 20px;
 }
 
 .q8--box .q8__large {
@@ -49,6 +53,7 @@
   border-radius: 7px;
   line-height: 38px;
   padding: 0 25px;
+  font-size: 24px;
 }
 
 
