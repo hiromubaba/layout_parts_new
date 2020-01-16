@@ -80,11 +80,23 @@ margin-left: 0;
 
 /*----Q7-5----*/
 
-.q7--margin .q7__box {
+.q7--margin .is-full{
+  font-size: 0;
+}
+
+.q7--margin .left {
+  box-sizing: border-box;
+  vertical-align: top;
   display: inline-block;
-  display: flex;
-  align-items: flex-start;
   width: 300px;
+}
+
+.q7--margin .right{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
 }
 
 .q7--margin .q7__box__text {
