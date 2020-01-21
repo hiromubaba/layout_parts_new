@@ -46,7 +46,16 @@
   border: 10px solid #ECF1F2;
   border-radius: 50%;
   border-top-color: #00bcd4;
-  animation: 1.1s infinite linear forwards;
+  animation : rotate 1.1s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 

@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q9__box__text {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #222;
+  margin: auto;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+}
+
+.q9__box__text:before, .q9__box__text:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.q9__box__text:before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+
+.q9__box__text::after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
+
+
 
 /* 回答はここに書いてね */
