@@ -10,7 +10,7 @@
   clear: both;
 }
 
-.q7--float .q7__box {
+.q7--wrapper .q7_2__text {
   float: left;
   width: 225px;
   background-color: #fff;
@@ -20,38 +20,38 @@
   margin-left: 50px;
 }
 
-.q7--float .q7__box:first-child {
+.q7--wrapper .q7_2__text:first-child {
   margin-left: 0;
 }
 
-.q7--table .q7__inner {
+.q7--wrapper .q7__inner {
   display: table;
 }
 
 /*----Q7-2----*/
 
-.q7--table .q7__box {
+.q7-2--wrapper .q7__box {
   display: table-cell;
   padding-left: 50px;
   width: 225px;
   vertical-align: middle;
 }
 
-.q7--table .q7__box__text {
+.q7-2--wrapper .q7_2__text {
   font-size: 16px;
 }
 
-.q7--table .q7__box:first-child {
+.q7-2--wrapper .q7__box:first-child {
   padding-left: 0;
 }
 
 /*----Q7-3----*/
 
-.q7--inlineblock {
+.q7__inner {
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box {
+.q7-3--wrapper .q7_3__text {
   display: inline-block;
   width: 225px;
   font-size: 16px;
@@ -60,19 +60,19 @@
   box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__box:first-child { 
+.q7-3--wrapper .q7_3__text:first-child { 
 margin-left: 0;
 }
 
 /*----Q7-4----*/
 
-.q7--flex .q7__inner {
+.q7-4--wrapper .q7__inner {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .flex {
+.q7-4--wrapper .flex {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
@@ -80,7 +80,7 @@ margin-left: 0;
 
 /*----Q7-5----*/
 
-.q7--margin .is-full{
+.q7--margin .is-full {
   font-size: 0;
 }
 
@@ -91,7 +91,7 @@ margin-left: 0;
   width: 300px;
 }
 
-.q7--margin .right{
+.q7--margin .right {
   box-sizing: border-box;
   display: inline-block;
   width: 100%;

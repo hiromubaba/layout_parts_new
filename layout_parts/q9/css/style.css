@@ -12,7 +12,7 @@
   border-radius: 30px;
 }
 
-.q9__box__text:before, .q9__box__text:after {
+.q9__box__text:before, .q9__box__text::after {
   position: absolute;
   width: 0;
   height: 0;
@@ -20,7 +20,7 @@
   content: "";
 }
 
-.q9__box__text:before {
+.q9__box__text::before {
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
